@@ -25,7 +25,7 @@ module.exports = {
       './rules/react-hooks',
       './rules/testing-library',
     ].map((path) => require.resolve(path)),
-    '@ofadiman/eslint-config-base',
+    '@sjrf/eslint-config-base',
     'plugin:redux-saga/all',
   ],
 }
